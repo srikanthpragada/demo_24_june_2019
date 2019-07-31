@@ -1,0 +1,13 @@
+CREATE TABLE courses (
+    id       INTEGER      PRIMARY KEY AUTOINCREMENT,
+    title    VARCHAR (30) NOT NULL,
+    duration INTEGER,
+    fee      INTEGER
+);
+
+
+insert into courses(title,duration,fee) values('Python + Django',40,4000)
+insert into courses(title,duration,fee) values('Java EE + HB + SP',40,4500)
+insert into courses(title,duration,fee) values('Angular',15,1500)
+insert into courses(title,duration,fee) values('Data Science With Python',36,5000)
+
